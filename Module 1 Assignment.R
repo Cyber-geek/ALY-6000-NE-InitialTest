@@ -4,7 +4,7 @@ print("Jeevan Rishi Kumar Sunkara")
 #2.Install the vcd package
 install.packages("vcd")
 
-#3.Import the vcd library (pg 19) 
+#3.Import the vcd library
 library(vcd)
 
 #4.Plot a sales ~ temp scatter plot using the data below:
@@ -19,6 +19,13 @@ mean(Temperature)
 
 #6.Delete the 3rd element from the sales vector
 Sales[-3]
+Sales
 
+#7.Insert 16 as the 3rd element into the sales vector
+Sales[3]=16
+Sales
 
+#8.Create a vector <names> with elements Tom, Dick, Harry (pg 22)
+Names=c("Tom","Dick","Harry")
 
+#9.Create a 5 row and 2 column matrix of 10 integers (pg 23)
